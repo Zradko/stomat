@@ -8,7 +8,6 @@
 namespace ifpr\model;
 use ifpr\data\db;
 
-require_once '../autoload.php';
 
 class user
 {
@@ -20,7 +19,8 @@ private function adduser(string $firstname, string $lastname, string $secondname
     if ($db->query($query)) {
         return true;
     } else {
-        return false
+        return false;
    };
 }
+
 }
