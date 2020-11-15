@@ -55,53 +55,7 @@ $header='
     <script>(function(w,d,u){w.readyQ=[];w.bindReadyQ=[];function p(x,y){if(x=="ready"){w.bindReadyQ.push(y);}else{w.readyQ.push(x);}};var a={ready:p,bind:p};w.$=w.jQuery=function(f){if(f===d||f===u){return a}else{p(f)}}})(window,document)</script>
 </head>
 
-<body class="light">
-<!-- Pre loader -->
-<div id="loader" class="loader">
-    <div class="plane-container">
-        <div class="preloader-wrapper small active">
-            <div class="spinner-layer spinner-blue">
-                <div class="circle-clipper left">
-                    <div class="circle"></div>
-                </div><div class="gap-patch">
-                <div class="circle"></div>
-            </div><div class="circle-clipper right">
-                <div class="circle"></div>
-            </div>
-            </div>
 
-            <div class="spinner-layer spinner-red">
-                <div class="circle-clipper left">
-                    <div class="circle"></div>
-                </div><div class="gap-patch">
-                <div class="circle"></div>
-            </div><div class="circle-clipper right">
-                <div class="circle"></div>
-            </div>
-            </div>
-
-            <div class="spinner-layer spinner-yellow">
-                <div class="circle-clipper left">
-                    <div class="circle"></div>
-                </div><div class="gap-patch">
-                <div class="circle"></div>
-            </div><div class="circle-clipper right">
-                <div class="circle"></div>
-            </div>
-            </div>
-
-            <div class="spinner-layer spinner-green">
-                <div class="circle-clipper left">
-                    <div class="circle"></div>
-                </div><div class="gap-patch">
-                <div class="circle"></div>
-            </div><div class="circle-clipper right">
-                <div class="circle"></div>
-            </div>
-            </div>
-        </div>
-    </div>
-</div>
 ';
 return $header;
 }

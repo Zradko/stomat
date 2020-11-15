@@ -1,6 +1,5 @@
 <?php
 namespace ifpr;
-use ifpr\view as view;
 require_once ('config.php');
 require_once ('autoload.php');
 session_start();
@@ -14,8 +13,14 @@ error_reporting(E_ALL);
 if (version_compare(phpversion(), '7.1.0', '<') == true) {
 	exit('PHP 7.1+ Required');
 }
-
 $autold=new autoload();
 $footer=new view\footer();
 $header=new view\header();
-echo  $header->loadheader(). $footer->loadfooter();
+
+if ( isset($_SESSION['is_logged'])&& !emty($_SESSION['is_logged'])){
+    echo  $header->loadheader(). $footer->loadfooter();
+    } else {
+$login= new view\login();
+    echo  $header->loadheader(). $login->loadlogin().$footer->loadfooter();
+}
+

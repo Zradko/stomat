@@ -16,8 +16,7 @@ class autoload
     function __construct()
     {
         $this->getDirContents(DIR_TEMPLATE);
-        $this->getDirContents(DIR_DB);
-        $this->getDirContents(DIR_DATA);
+          $this->getDirContents(DIR_DATA);
     }
 
     function getDirContents($dir, &$results = array()) {

@@ -1,0 +1,23 @@
+[33mcommit 2c1d57a9ab8e7917d74ed86d64d83f190ca257d5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Igor fostiak <fostjak.igor@gmail.com>
+Date:   Sun Nov 15 17:25:27 2020 +0200
+
+    login page
+
+[33mcommit 2a91d05f73630b4b60cc843633c4bc207858c392[m
+Author: Igor fostiak <fostjak.igor@gmail.com>
+Date:   Sun Nov 15 09:05:05 2020 +0200
+
+    added autoload
+
+[33mcommit abfdf86d6bc6584739a29d88b2ee69a7e7e8aad9[m
+Author: Igor fostiak <fostjak.igor@gmail.com>
+Date:   Fri Nov 13 01:22:08 2020 +0200
+
+    db view but namespaces fuck
+
+[33mcommit 17485413a355d1e92fba831a1c5e6350fe21a20d[m
+Author: Igor fostiak <fostjak.igor@gmail.com>
+Date:   Thu Nov 12 23:22:13 2020 +0200
+
+    initial
