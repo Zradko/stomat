@@ -1,10 +1,9 @@
 <?php
 namespace ifpr;
-use ifpr as controller;
 use ifpr\view as view;
-require_once ('view/footer.php');
-require_once ('view/header.php');
-
+require_once ('config.php');
+require_once ('autoload.php');
+session_start();
 
 // Error Reporting
 ini_set('display_errors', '1');
@@ -16,11 +15,7 @@ if (version_compare(phpversion(), '7.1.0', '<') == true) {
 	exit('PHP 7.1+ Required');
 }
 
-
-
-$ft=new view\footer();
-$hd=new view\header();
-
-
-echo  $hd->loadheader(). $ft->loadfooter();
-    ?>
+$autold=new autoload();
+$footer=new view\footer();
+$header=new view\header();
+echo  $header->loadheader(). $footer->loadfooter();

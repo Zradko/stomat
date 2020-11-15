@@ -7,7 +7,6 @@ namespace ifpr\data;
  * Date: 12.11.2020
  * Time: 23:24
  */
-require_once ('../config.php');
 class db {
 
     protected $connection;
