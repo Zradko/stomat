@@ -1,8 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b5660e3-d90e-43f9-bec5-5fed16fb5262" name="Default Changelist" comment="">
+    <list default="true" id="6b5660e3-d90e-43f9-bec5-5fed16fb5262" name="Default Changelist" comment="Removed TF services">
+      <change afterPath="$PROJECT_DIR$/TF/AWDoctorModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/AccountAutoZerosDebtorsAndLenders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/AccountModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/AccountReportsModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/AdminService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/AdressBookModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/AmbulatoryCardModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/AnamnesisDictionaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ApplicationSetting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/AssistantsModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/AvatarComponent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/BackupModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/Barcode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/BeecardiaModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/CalendarModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ChiefBudgetModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ChiefCSVData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ChiefExpensesModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ChiefHRModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ChiefMapModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ChiefOlapModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ChiefSalaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ChiefStatisticsModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/CommonClinicInformationModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ComorbiditiesModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/Connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ContactBookModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/DiagnosisDictionaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/DictionaryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/DiscountModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/DispanserModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/DoctorCardModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/EHealthModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/EHealthService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/EmailService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/EmployeeChiefModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/EmployeeModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/F25OBJECT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/F37OBJECT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/F39OBJECT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/F43OBJECT.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/FarmBathCSVData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/FingerHRSheduler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/Form025Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/Form037Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/Form039Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/Form043Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/GeneralModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/GinMobileJson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/GoogleCalendarModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/GoogleGeocodingModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/GuidelineDictionaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/HRModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/HealthCourseDictionaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/HealthPlanMKB10Module.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/HealthPlanPrintModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/HistoryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/HygieneModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/InfoConsentOfThePatientModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/InsuranceCompanyModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/InsuranceModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/LISMyLabModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/MaterialsDictionaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/NHColposcope.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/NHDiagnos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/NHHospital.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/NHPhysicalExaminationModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/NHPsorolite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/NHUltra.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/NHUltraDict.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/NHUltraTemplateModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/NhealthReports.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/OLAP_fwp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/OLAP_pnh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/OcclusionModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/OnlineRegistrationModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/OrderModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/OrthancService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PDDFileLoadModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PDDService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PatientCardDictionariesModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PatientCardModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PatientCardPDFModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PatientHospitalCardModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PatientReportsModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PatientTestModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PersonnelModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PhpInfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PriceListModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PriceListReportsModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PrintDataModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/PrintRecommendationModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ReportsModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/RoomsDictionaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/SMSScheduler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/SMSSenderModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/SalesFunnelModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ScheduleReportsModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ServerFileLoadModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ServerFileModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ServiceModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/Settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/StatusDictionaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/Storage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/StorageDocumentsModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/StorageWriteOff.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/StoreModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/SubscriptionModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/SuppliersDictionaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/SyncDictionaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/TeethExamDictionariesModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/TeethExamModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ToothFairyMobileDoctorService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ToothFairyMobileJson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ToothFairyMobileServiceModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/ToothFairyReleases.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/TreatmentManagerModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/TreatmentPlanDictionaryModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/UpdateGeo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/UpdateGeoData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/Utils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/WarehouseModule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/api/APIBeecardia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/api/APIDocUA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/composer/autoload_files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/.php_cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/ApplicationDefaultCredentials.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/Credentials/AppIdentityCredentials.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/Credentials/GCECredentials.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/Credentials/IAMCredentials.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/Credentials/ServiceAccountCredentials.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/Credentials/UserRefreshCredentials.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/CredentialsLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/FetchAuthTokenInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/OAuth2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/Subscriber/AuthTokenSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/Subscriber/ScopedAccessTokenSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/src/Subscriber/SimpleSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/ApplicationDefaultCredentialsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/BaseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/CacheTraitTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Credentials/AppIndentityCredentialsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Credentials/GCECredentialsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Credentials/IAMCredentialsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Credentials/ServiceAccountCredentialsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Credentials/UserRefreshCredentialsTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/FetchAuthTokenTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/HttpHandler/Guzzle5HttpHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/HttpHandler/Guzzle6HttpHandlerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/HttpHandler/HttpHandlerFactoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Middleware/AuthTokenMiddlewareTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Middleware/ScopedAccessTokenMiddlewareTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Middleware/SimpleMiddlewareTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/OAuth2Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Subscriber/AuthTokenSubscriberTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Subscriber/ScopedAccessTokenSubscriberTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/Subscriber/SimpleSubscriberTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/fixtures/.config/gcloud/application_default_credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/fixtures/private.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/fixtures/private.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/fixtures/public.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/fixtures2/.config/gcloud/application_default_credentials.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/fixtures2/private.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendarSync/vendor/google/auth/tests/mocks/AppIdentityService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/calendar_ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/eHealthFileLoad.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TF/smsclient.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/turbosms.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,44 +208,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/da.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
             <state relative-caret-position="391">
-              <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TF/TeethExamModule.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="387" column="37" lean-forward="true" selection-start-line="387" selection-start-column="37" selection-end-line="387" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="82" column="96" selection-start-line="82" selection-start-column="96" selection-end-line="82" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/turbosms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/view/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="82" column="96" lean-forward="true" selection-start-line="82" selection-start-column="96" selection-end-line="82" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/install/createdb.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/db.php">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -93,7 +290,7 @@
         <entry file="file://$PROJECT_DIR$/view/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="884">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -128,9 +325,11 @@
         <option value="$PROJECT_DIR$/info.php" />
         <option value="$PROJECT_DIR$/autoload.php" />
         <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/view/header.php" />
         <option value="$PROJECT_DIR$/view/login.php" />
+        <option value="$PROJECT_DIR$/TF/turbosms.php" />
+        <option value="$PROJECT_DIR$/data/turbosms.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -148,6 +347,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,11 +355,15 @@
               <item name="st.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="st.com" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="st.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="st.com" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,12 +411,23 @@
       <workItem from="1605444660894" duration="1593000" />
       <workItem from="1605449070999" duration="56000" />
       <workItem from="1605449550319" duration="2345000" />
-      <workItem from="1605454317231" duration="1081000" />
+      <workItem from="1605454317231" duration="1271000" />
+      <workItem from="1605509507802" duration="599000" />
+      <workItem from="1605517654011" duration="203000" />
+      <workItem from="1605596381335" duration="4902000" />
     </task>
+    <task id="LOCAL-00001" summary="final cut">
+      <created>1605455521551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605455521551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19900000" />
+    <option name="totallyTimeSpent" value="25794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -225,10 +440,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12846482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" sideWeight="0.4989339" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -238,9 +455,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49520257" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49253732" visible="true" weight="0.2936078" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5074627" side_tool="true" visible="true" weight="0.2936078" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4936034" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49200428" weight="0.2936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -275,6 +492,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final cut" />
+    <MESSAGE value="Added tsms" />
+    <MESSAGE value="Removed TF services" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed TF services" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/1.php" />
@@ -307,19 +544,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/assets/php/phpMailer/PHPMailer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
+        <state relative-caret-position="197">
+          <caret line="2585" column="20" selection-start-line="2585" selection-start-column="20" selection-end-line="2585" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/install/createdb.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -359,24 +592,49 @@
     <entry file="file://$PROJECT_DIR$/view/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/php/phpMailer/PHPMailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="2585" column="20" selection-start-line="2585" selection-start-column="20" selection-end-line="2585" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/view/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="82" column="96" lean-forward="true" selection-start-line="82" selection-start-column="96" selection-end-line="82" selection-end-column="96" />
+        <state relative-caret-position="1309">
+          <caret line="82" column="96" selection-start-line="82" selection-start-column="96" selection-end-line="82" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/da.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TF/TeethExamModule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="387" column="37" lean-forward="true" selection-start-line="387" selection-start-column="37" selection-end-line="387" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/turbosms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
